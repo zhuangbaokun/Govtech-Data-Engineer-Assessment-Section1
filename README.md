@@ -1,13 +1,13 @@
 # Govtech-Data-Engineering-Assessment
 
-##Section 1: Data Pipelines
+## Section 1: Data Pipelines
 
 ### Necessary Packages
 1) time
 2) pandas
 3) schedule
 
-###Step 1: Building the data pipeline function named datapipeline()
+### Step 1: Building the data pipeline function named datapipeline()
 
 The datapipeline function is a function that basically performs the extraction, transformation and loading of data. This function contains many sub-function, and each sub-function is designed to perform on the the 4 listed processing task. The function consist of 6 main processing steps:
 1) Import data from 'https://raw.githubusercontent.com/jaabberwocky/dataeng_test/master/dataset.csv' and save the data as df. Subsequently, this dataframe is fed into the other data processing functions.
@@ -20,7 +20,7 @@ The datapipeline function is a function that basically performs the extraction, 
 5) The sub-function append_col_above_100(), applies an if else on the price column, so if price is strictly above 100 it outputs True, otherwise False. Thereafter, the result is appended to the dataframe as "above_100".
 6) Lastly, after extracting the file from github and applying all the sub-functions, we will proceed to export the file into csv with the suffix "_update_(date of update)".
 
-###Step 2: Scheduling the function to run everyday at a fixed time
+### Step 2: Scheduling the function to run everyday at a fixed time
 
 1) pip install schedule
 2) set the schedule to everyday at "01:01" and run the function datapipeline() in step 1
