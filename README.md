@@ -21,7 +21,7 @@ The datapipeline function is a function that basically performs the extraction, 
 3) remove_prepended_zeros() removes prepended zeros from price column. Eg. "00090.00" will be converted to "90.00" by applying float to the entire price column.
 4) To remove cases without name, we use the function remove_rows_without_name() to remove cases where the name is "" (empty string) or NaN.
 5) The sub-function append_col_above_100(), applies an if else on the price column, so if price is strictly above 100 it outputs True, otherwise False. Thereafter, the result is appended to the dataframe as "above_100".
-6) Lastly, after extracting the file from github and applying all the sub-functions, we will proceed to export the file into csv with the suffix "_update_(date of update)".
+6) Lastly, after extracting the file from github and applying all the sub-functions, we will proceed to export the file into csv with the suffix "\_update\_(date of update)".
 
 ### Step 2: Scheduling the function to run everyday at a fixed time
 
