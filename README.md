@@ -25,3 +25,7 @@ The datapipeline function is a function that basically performs the extraction, 
 1) pip install schedule
 2) set the schedule to everyday at "01:01" and run the function datapipeline() in step 1
 3) Create a while loop to kick start the scheduled function
+
+### Output
+
+-Result of the scheduled data pipeline output can be found in dataset_updated_20201016.csv
