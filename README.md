@@ -2,6 +2,8 @@
 
 ## Section 1: Data Pipelines
 
+-The logical flow of the data pipeline are described in 2 parts - step 1 and step 2.
+
 ### Necessary Packages
 1) time
 2) pandas
