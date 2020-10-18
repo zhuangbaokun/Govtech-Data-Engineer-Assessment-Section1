@@ -26,7 +26,7 @@ The datapipeline function is a function that basically performs the extraction, 
 ### Step 2: Scheduling the function to run everyday at a fixed time
 
 1) pip install schedule
-2) set the schedule to everyday at "01:01" and run the function datapipeline() in step 1
+2) Set the schedule to run the datapipeline() function daily at 01:01 ()
 3) Create a while loop to kick start the scheduled function
 
 ### Output
