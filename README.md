@@ -1,4 +1,4 @@
-# Govtech-Data-Engineering-Assessment
+# Govtech-Data-Engineer-Assessment
 
 ## Section 1: Data Pipelines
 
